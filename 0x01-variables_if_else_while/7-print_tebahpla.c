@@ -1,21 +1,17 @@
 #include <stdio.h>
-#include <ctyle.h>
+
 /**
- * main - prints lower case alphabets in reverse
- *
- * Return: 0(Success)
+ * main - prints the lowercase alphabet in reverse,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char rv;
+	char ch;
 
-	/*
-	 * loops through the alphabets from behind
-	 * to print alphabets in reverse
-	 */
-	for (rv = 'z' ; rv >= 'a' ; rv--)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(rv);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
