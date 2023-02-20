@@ -1,16 +1,17 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
- * main - to print all single digit numbers of base 10
- *
- * Return :0(Success) 
+ * main - Entry point
+ *Description: 'print numbers of base 10'
+ * Return: Always 0
  */
 int main(void)
 {
-	int x;
-	/*to print all single numbers of base 10,loop through them*/
-	for (x = 0 ; x < 10 ; x++)
-	printf("%d", x);
+	int n;
+
+	for (n = 0; n <= 9; n++)
+	{
+		printf("%d", n);
+	}
 	printf("\n");
 	return (0);
 }
