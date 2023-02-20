@@ -1,23 +1,28 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: 'print alphabets lowercase and uppercase'
- * Retrun: always 0
+ * main - main block
+ * Desciption: print the alphabet in lower case
+ * and in the uppercase, follow by a new line
+ * Return: 0
  */
 int main(void)
 {
-	int n = 97;
-	int m = 65;
+	char c = 'a';
 
-	while (n <= 122)
+	while (c <= 'z')
 	{
-		putchar(n);
+		putchar(c);
+		c++;
 	}
-	while (m <= 90)
-	{
-		putchar(m);
 
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++
 	}
+
 	putchar('\n');
 	return (0);
 }
